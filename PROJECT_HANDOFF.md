@@ -21,7 +21,7 @@ Build a practical, lightweight Android browser whose standout feature is a depen
 
 A debug CI run (#85) previously passed the testDebugUnitTest and assembleDebug tasks. It produced a GitHub Actions debug APK artifact. Release build was skipped because release signing secrets were not configured. This is not a production release and does not prove physical-device QA.
 
-Original private development repository and branch are intentionally not disclosed here. The public copy must be reviewed and sanitized before source publication.
+The original private development repository remains private. A sanitized source snapshot is now published in this community repository. Personal portrait artwork and private AI Studio uploads were excluded; neutral Browser Hunter artwork is used instead.
 
 ## Known engineering caveats
 
@@ -42,9 +42,7 @@ Original private development repository and branch are intentionally not disclos
 
 ## Public repository hygiene
 
-Before source or APK publication:
-- Remove personal portraits and private AI Studio uploads; use neutral placeholder artwork.
-- Scan the entire history and current tree for secrets, credentials, tokens, local configuration and signing material.
-- Do not publish private keystores or passwords.
-- Confirm licenses for dependencies and choose a project license before inviting code reuse.
-- Publish only a sanitized source snapshot and clearly label the APK as debug or release.
+- The current source snapshot excludes personal portrait files, private AI Studio uploads, local credentials, signing keystores, and private repository history.
+- A community MIT license and explicit project-direction note are included. Contributors are welcome to rebuild or improve the app; please retain the product name **Browser Hunter**.
+- The source has not yet completed a fresh public-repository CI build or full secret/dependency audit. Contributors should review before shipping.
+- No verified public APK release is currently available. Any future APK must be clearly labeled debug or release.
