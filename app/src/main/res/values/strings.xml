@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Browser Hunter</string>
+    <string name="ai_name">Arafat AI</string>
+    <string name="search_hint">Search or enter web address…</string>
+    <string name="biometric_title">Unlock Ghost Mode</string>
+    <string name="biometric_subtitle">Authenticate using Biometric or Device PIN</string>
+    <string name="biometric_description">Ghost Mode keeps your browsing private and encrypted.</string>
+</resources>
